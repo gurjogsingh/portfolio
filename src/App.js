@@ -11,7 +11,7 @@ function App() {
   }
 
   const openResume = () => {
-    window.open('./portfolio/resume.pdf');
+    window.open('/portfolio/resume.pdf');
   }
 
   const openLinkedIn = () => {
@@ -102,9 +102,9 @@ function App() {
               <button className='button button-color-2' onClick={openResume}>My Resume</button>
             </div>
             <div id = 'socialsContainer'>
-              <img src='./portfolio/linkedin.png' alt='My LinkedIn profile' className='socialsIcon socialsLinkedInIcon' onClick={openLinkedIn}></img>
-              <img src='./portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={openGithub}></img>
-              <img src='./portfolio/email.png' alt='My email' className='socialsIcon socialsEmailIcon' onClick={sendEmail}></img>
+              <img src='/portfolio/linkedin.png' alt='My LinkedIn profile' className='socialsIcon socialsLinkedInIcon' onClick={openLinkedIn}></img>
+              <img src='/portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={openGithub}></img>
+              <img src='/portfolio/email.png' alt='My email' className='socialsIcon socialsEmailIcon' onClick={sendEmail}></img>
             </div>
           </div>
 
@@ -129,7 +129,7 @@ function App() {
           <div className='sectionContainer'>
             <div className='sectionPictureContainer'>
             <div className='profilePictureCropper'>
-              <img className='profilePicture' src='./portfolio/profile-pic.png' alt='Gurjog Singh Profile Picture'></img>
+              <img className='profilePicture' src='/portfolio/profile-pic.png' alt='Gurjog Singh Profile Picture'></img>
             </div>
           </div>
             <div className='aboutDetailsContainer'>
@@ -172,7 +172,7 @@ function App() {
               
             </div>
           </div>
-          <img src='./portfolio/arrow.png' alt='Arrow Icon' className='socialsIcon arrow' onClick={downAboutToExperience}></img>
+          <img src='/portfolio/arrow.png' alt='Arrow Icon' className='socialsIcon arrow' onClick={downAboutToExperience}></img>
         </section>
         <section id='experience'>
           <p className='sectionTextP1'>Explore My</p>
@@ -195,7 +195,7 @@ function App() {
             <div className='aboutContainers'>
               <div className='detailsContainer'>
                 <div className='experienceDetails'>
-                  <img className ='experienceLogo' src='./portfolio/pcl-logo.jpg'></img>
+                  <img className ='experienceLogo' src='/portfolio/pcl-logo.jpg'></img>
                   <div className='experienceText'>
                     <div className='experienceTitleAndDate'>
                       <h2 className='experienceTitle'>PCL Constructors Inc.</h2>
@@ -213,7 +213,7 @@ function App() {
               </div>
             </div>
           </div>
-          <img src='./portfolio/arrow.png' alt='Arrow Icon' className='socialsIcon arrow' onClick={downExperienceToProjects}></img>
+          <img src='/portfolio/arrow.png' alt='Arrow Icon' className='socialsIcon arrow' onClick={downExperienceToProjects}></img>
         </section>
         <section id='projects'>
           <p className='sectionTextP1'> Browse My Recent</p>
@@ -236,83 +236,83 @@ function App() {
             <div className='aboutContainers projectsContainers'>
               <div className='detailsContainer colorContainer singleProjectContainer'>
                 <div className='articleContainer'>
-                  <img src='./portfolio/flowergirl-picture.png' alt='FlowerGirl' className='projectImage'></img>
+                  <img src='/portfolio/flowergirl-picture.png' alt='FlowerGirl' className='projectImage'></img>
                 </div>
                 <h2 className='experienceSubTitle projectTitle'>FlowerGirl</h2>
                 <p className='projectTechStack'>ReactJS | ExpressJS | LangChain | TensorFlow | GCP</p>
                 <p className='projectDescriptionText'> Website that identifies flower name through uploaded image and generates custom poem using flower name and live weather.</p>
                 <div className='buttonContainer'>
-                <img src='./portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/silverpalmfood')}}></img>
-                <img src='./portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://youtu.be/6VbGz163z_M')}}></img>
+                <img src='/portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/silverpalmfood')}}></img>
+                <img src='/portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://youtu.be/6VbGz163z_M')}}></img>
                 </div>
               </div>
               <div className='detailsContainer colorContainer singleProjectContainer'>
                 <div className='articleContainer'>
-                  <img src='./portfolio/silverpalmfood-picture.png' alt='Silver Palm Food' className='projectImage'></img>
+                  <img src='/portfolio/silverpalmfood-picture.png' alt='Silver Palm Food' className='projectImage'></img>
                 </div>
                 <h2 className='experienceSubTitle projectTitle'>Silver Palm Food</h2>
                 <p className='projectTechStack'>NextJS | MongoDB | Redux</p>
                 <p className='projectDescriptionText'> Mobile-friendly website that allows users to view, select and order food from Silver Palm Hotel, Kilifi.</p>
                 <div className='buttonContainer'>
-                <img src='./portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/silverpalmfood')}}></img>
-                <img src='./portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('/silverpalmfood.pdf')}}></img>
+                <img src='/portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/silverpalmfood')}}></img>
+                <img src='/portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('/silverpalmfood.pdf')}}></img>
                 </div>
               </div>
               <div className='detailsContainer colorContainer singleProjectContainer'>
                 <div className='articleContainer'>
-                  <img src='./portfolio/tartan-picture.avif' alt='Tartan Smart Home Platform' className='projectImage'></img>
+                  <img src='/portfolio/tartan-picture.avif' alt='Tartan Smart Home Platform' className='projectImage'></img>
                 </div>
                 <h2 className='experienceSubTitle projectTitle'>Tartan Smart Home Platform</h2>
                 <p className='projectTechStack'>Java | PyTest | JUnit</p>
                 <p className='projectDescriptionText'> Performed testing and added additional features to a smart home controller.</p>
                 <div className='buttonContainer'>
-                <img src='./portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/cmput402-w23/tartan-groupy2/')}}></img>
+                <img src='/portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/cmput402-w23/tartan-groupy2/')}}></img>
                 </div>
               </div>
               <div className='detailsContainer colorContainer singleProjectContainer'>
                 <div className='articleContainer'>
-                  <img src='./portfolio/pinit-picture.png' alt='PinIt' className='projectImage'></img>
+                  <img src='/portfolio/pinit-picture.png' alt='PinIt' className='projectImage'></img>
                 </div>
                 <h2 className='experienceSubTitle projectTitle'>PinIt</h2>
                 <p className='projectTechStack'>ReactJS | ExpressJS | MongoDB</p>
                 <p className='projectDescriptionText'> Website that allows authenticated users to pin and rate/review their favorite locations on a map and view other users’ pins.	</p>
                 <div className='buttonContainer'>
-                <img src='./portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/pinit')}}></img>
-                <img src='./portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('/pinit.pdf')}}></img>
+                <img src='/portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/pinit')}}></img>
+                <img src='/portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('/pinit.pdf')}}></img>
                 </div>
               </div>
               <div className='detailsContainer colorContainer singleProjectContainer'>
                 <div className='articleContainer'>
-                  <img src='./portfolio/pinit-picture.png' alt='LabNet' className='projectImage'></img>
+                  <img src='/portfolio/pinit-picture.png' alt='LabNet' className='projectImage'></img>
                 </div>
                 <h2 className='experienceSubTitle projectTitle'>LabNet</h2>
                 <p className='projectTechStack'>Java | Android Studio</p>
                 <p className='projectDescriptionText'> Android application allowing authenticated users to record, share, and access/participate in various posted experiments.</p>
                 <div className='buttonContainer'>
-                <img src='./portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/MdderUofA/Lab-Net/')}}></img>
+                <img src='/portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/MdderUofA/Lab-Net/')}}></img>
                 </div>
               </div>
               <div className='detailsContainer colorContainer singleProjectContainer'>
                 <div className='articleContainer'>
-                  <img src='./portfolio/bingbing-picture.png' alt='BingBing' className='projectImage'></img>
+                  <img src='/portfolio/bingbing-picture.png' alt='BingBing' className='projectImage'></img>
                 </div>
                 <h2 className='experienceSubTitle projectTitle'>BingBing</h2>
                 <p className='projectTechStack'>ReactJS | Django</p>
                 <p className='projectDescriptionText'> Distributed social networking website; authenticated users can create posts, follow friends and like/comment on posts.</p>
                 <div className='buttonContainer'>
-                <img src='./portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/CMPUT404W22-GroupProject/social-distribution/')}}></img>
-                <img src='./portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://youtu.be/jj_-ehar8AE')}}></img>
+                <img src='/portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/CMPUT404W22-GroupProject/social-distribution/')}}></img>
+                <img src='/portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://youtu.be/jj_-ehar8AE')}}></img>
                 </div>
               </div>
               <div className='detailsContainer colorContainer singleProjectContainer'>
                 <div className='articleContainer'>
-                  <img src='./portfolio/portfolio-picture.png' alt='Portfolio' className='projectImage'></img>
+                  <img src='/portfolio/portfolio-picture.png' alt='Portfolio' className='projectImage'></img>
                 </div>
                 <h2 className='experienceSubTitle projectTitle'>My Portfolio</h2>
                 <p className='projectTechStack'>ReactJS</p>
                 <p className='projectDescriptionText'> My portfolio that contains my professional information.</p>
                 <div className='buttonContainer'>
-                <img src='./portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/portfolio')}}></img>
+                <img src='/portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/portfolio')}}></img>
                 </div>
               </div>
               
@@ -328,7 +328,7 @@ function App() {
 
             </div>
           </div>
-          <img src='./portfolio/arrow.png' alt='Arrow Icon' className='socialsIcon arrow' onClick={downProjectsToContact}></img>
+          <img src='/portfolio/arrow.png' alt='Arrow Icon' className='socialsIcon arrow' onClick={downProjectsToContact}></img>
         </section>
         <section id='contact'>
           <p className='sectionTextP1'> Get in Touch</p>
@@ -349,11 +349,11 @@ function App() {
                         }}/>
           <div className='contactInfoUpperContainer'>
             <div className='contactInfoContainer'>
-              <img src='./portfolio/email.png' alt='Email Icon' className='socialsIcon contactIcon'></img>
+              <img src='/portfolio/email.png' alt='Email Icon' className='socialsIcon contactIcon'></img>
               <p><a href='mailto:gurjog@ualberta.ca'>gurjog@ualberta.ca</a></p>
             </div>
             <div className='contactInfoContainer'>
-              <img src='./portfolio/linkedin.png' alt='LinkedIn Icon' className='socialsIcon contactIcon'></img>
+              <img src='/portfolio/linkedin.png' alt='LinkedIn Icon' className='socialsIcon contactIcon'></img>
               <p><a href='https://www.linkedin.com/in/gurjog-singh-5b4a03232/'>https://www.linkedin.com/in/gurjog-singh-5b4a03232/</a></p>
             </div>
           </div>
