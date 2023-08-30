@@ -3,7 +3,7 @@
   "name": "Gurjog's Portfolio",
   "icons": [
     {
-      "src": "facelogo.png",
+      "src": "portfolio/facelogo.png",
       "type": "image/png",
       "sizes": "192x192"
     }
