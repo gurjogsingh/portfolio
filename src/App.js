@@ -283,7 +283,7 @@ function App() {
               </div>
               <div className='detailsContainer colorContainer singleProjectContainer'>
                 <div className='articleContainer'>
-                  <img src='/portfolio/pinit-picture.png' alt='LabNet' className='projectImage'></img>
+                  <img src='/portfolio/labnet-picture.jpeg' alt='LabNet' className='projectImage'></img>
                 </div>
                 <h2 className='experienceSubTitle projectTitle'>LabNet</h2>
                 <p className='projectTechStack'>Java | Android Studio</p>
