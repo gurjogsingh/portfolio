@@ -314,7 +314,7 @@ function App() {
                 <p className='projectTechStack'>ReactJS</p>
                 <p className='projectDescriptionText'> My portfolio that contains my professional information.</p>
                 <div className='buttonContainer'>
-                <img src='/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={openGithub}></img>
+                <img src='/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/portfolio')}}></img>
                 </div>
               </div>
               
