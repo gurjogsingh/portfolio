@@ -357,7 +357,7 @@ section {
 
 .experienceTitleAndDate {
   display: flex;
-  gap: 24rem;
+  gap: 12rem;
 }
 
 .experienceDate {
@@ -367,7 +367,7 @@ section {
 }
 
 .experienceTitle {
-  color: rgb(85, 85, 85);
+  color: black;
   font-weight: 600;
   font-size: larger;
   margin-bottom: 1rem;

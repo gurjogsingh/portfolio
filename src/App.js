@@ -163,7 +163,7 @@ function App() {
                   </div>
                   <div>
                     <h3>Education</h3>
-                    <p>B.Sc. Computing Science with Specialisation, 2023</p>
+                    <p>B.Sc. Computing Science with Specialisation, 2024</p>
                     <p>University of Alberta, Edmonton, Alberta</p>
                   </div>
                 </div>
@@ -198,7 +198,7 @@ function App() {
                   <img className ='experienceLogo' src='/portfolio/pcl-logo.jpg'></img>
                   <div className='experienceText'>
                     <div className='experienceTitleAndDate'>
-                      <h2 className='experienceTitle'>PCL Constructors Inc.</h2>
+                      <h2 className='experienceTitle'>Software Developer Student at PCL Constructors Inc.</h2>
                       <h1 className='experienceDate'>September 2022 - December 2022</h1>
                     </div>
                     
@@ -255,7 +255,7 @@ function App() {
                 <p className='projectDescriptionText'> Mobile-friendly website that allows users to view, select and order food from Silver Palm Hotel, Kilifi.</p>
                 <div className='buttonContainer'>
                 <img src='/portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/silverpalmfood')}}></img>
-                <img src='/portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('/silverpalmfood.pdf')}}></img>
+                <img src='/portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('/portfolio/silverpalmfood.pdf')}}></img>
                 </div>
               </div>
               <div className='detailsContainer colorContainer singleProjectContainer'>
@@ -278,7 +278,7 @@ function App() {
                 <p className='projectDescriptionText'> Website that allows authenticated users to pin and rate/review their favorite locations on a map and view other users’ pins.	</p>
                 <div className='buttonContainer'>
                 <img src='/portfolio/github.png' alt='My GitHub profile' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('https://github.com/gurjogsingh/pinit')}}></img>
-                <img src='/portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('/pinit.pdf')}}></img>
+                <img src='/portfolio/open.png' alt='Link to' className='socialsIcon socialsGithubIcon' onClick={() => {openGithubProject('/portfolio/pinit.pdf')}}></img>
                 </div>
               </div>
               <div className='detailsContainer colorContainer singleProjectContainer'>
