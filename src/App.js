@@ -163,7 +163,7 @@ function App() {
                   </div>
                   <div>
                     <h3>Education</h3>
-                    <p>B.Sc. Computing Science with Specialisation, 2024</p>
+                    <p>B.Sc. Computing Science with Specialization, 2024</p>
                     <p>University of Alberta, Edmonton, Alberta</p>
                   </div>
                 </div>
