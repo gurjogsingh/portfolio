@@ -195,6 +195,33 @@ function App() {
             <div className='aboutContainers'>
               <div className='detailsContainer'>
                 <div className='experienceDetails'>
+                  <img className ='experienceLogo' src='/portfolio/uofa-logo.png'></img>
+                  <div className='experienceText'>
+                    <div className='experienceTitleAndDate'>
+                      <h2 className='experienceTitle'>Software Developer Intern at University of Alberta</h2>
+                      <h1 className='experienceDate'>September 2023 - December 2023</h1>
+                    </div>
+                    
+                    <p className='experiencePoints'> Software developer for two projects in the Faculty of Engineering, Department of Civil and Environmental Engineering.</p>
+                    <p className='experiencePoints'>• Leveraged 3DStudio Max .NET API, C#, MaxScript and .NET framework to develop plugins for 3DStudio Max, combining multiple steps to create a building object into one step.</p>
+                    <p className='experiencePoints'>• Refactored and debugged .NET MVC-based UI, increasing responsiveness by 10% and including enhanced functionality.</p>
+                    <p className='experiencePoints'>• Developed OCR system to extract specific text from pipeline rover videos using Python, automating fault tracking process.</p>
+                    <p className='experiencePoints'>• Utilised data analytic tools (Pandas, Numpy, Matplotlib etc) to generate customizable speed profiles from extracted distance data from videos through OCR system.</p>
+                    <p className='experiencePoints'>• Created GUI for OCR system using Python Tkinter, streamlining workflow, and leading to a 25% improvement in user intervention time.</p>
+                    <p className='experiencePoints'>• Rigged crawler crane models in 3DStudio Max to simulate object loading and movement while factoring in object avoidance.</p>
+                    <p className='experiencePoints'>• Investigated and implemented procedures to convert real scenes from an online map to 3D modifiable objects, bringing realism to digital scenes.</p>
+                    <p className='experiencePoints'>• Drafted documentation for newly created and updated codebases and procedures.</p>
+                    <h1 className='experienceTechStack'>TensorFlow | Autodesk 3ds Max | Maxscript | Python | .NET Framework | C#</h1>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='experienceDetailsContainer'>
+            <div className='aboutContainers'>
+              <div className='detailsContainer'>
+                <div className='experienceDetails'>
                   <img className ='experienceLogo' src='/portfolio/pcl-logo.jpg'></img>
                   <div className='experienceText'>
                     <div className='experienceTitleAndDate'>
@@ -204,7 +231,7 @@ function App() {
                     
                     <p className='experiencePoints'> Full stack developer in Agile practicing and Azure DevOps using team of 12 developers, for PCL’s in-house estimating software.</p>
                     <p className='experiencePoints'>• Implemented 3 new UI components, and revamped existing ones to match new design standards.</p>
-                    <p className='experiencePoints'>• Developed error management feature using Angular and SpreadJS, increasing users’ error-tracking efficiency by 30%.</p>
+                    <p className='experiencePoints'>• Developed error management feature using AngularJS and SpreadJS, increasing users’ error-tracking efficiency by 30%.</p>
                     <p className='experiencePoints'>• Utilized SyncFusion grids, MS SQL Server, JSON and generated a sorting algorithm to successfully redesign and validate Rate Trees feature UI and cross-window drag-drop functionality, receiving positive feedback from project stakeholders.</p>
                     <h1 className='experienceTechStack'>AngularJS | TypeScript | .NET | C# | Azure DevOps</h1>
                   </div>

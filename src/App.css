@@ -412,6 +412,7 @@ article {
 #projects {
   position: relative;
   height: 100vh;
+  margin-top: 30rem;
 }
 
 .projectsContainers {
@@ -548,6 +549,10 @@ footer p {
   #experience {
     margin-top: 22rem;
   } 
+
+  #project {
+    margin-top: 22rem;
+  } 
   .experienceDetailsContainer {
     margin-top: 4rem;
   }
@@ -606,7 +611,7 @@ footer p {
   }
 
   #projects{
-    margin-top: 4rem;
+    margin-top: 60rem;
   }
 
   #contact {
@@ -623,7 +628,7 @@ footer p {
 @media screen and (max-width: 700px){
     
     #projects{
-      margin-top: 8rem;
+      margin-top: 64rem;
     }
 
     #experience {
@@ -651,7 +656,7 @@ footer p {
   }
 
   #projects {
-    margin-top: 6rem;
+    margin-top: 68rem;
   }
 
   #contact {
