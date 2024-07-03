@@ -135,7 +135,7 @@ function App() {
             <div className='aboutDetailsContainer'>
               <div className='aboutContainers'>
                 <div className='textContainer'>
-                  <p>I'm passionate about crafting digital solutions from start to finish. With a curious mind and a love for problem-solving, I thrive in the dynamic space where front-end creativity meets back-end logic. My journey has been a fusion of diverse technologies and languages, allowing me to seamlessly bridge the gap between user-centric design and robust functionality through continuous learning and hands-on experience.</p>
+                  <p>I'm passionate about crafting digital solutions from start to finish. With a background in both frontend and backend technologies coupled with a solid foundation in data analysis, I enjoy creating seamless digital experiences and uncovering actionable insights.</p>
                 </div>
                 <div className='rowWrap'>
                   <div>
