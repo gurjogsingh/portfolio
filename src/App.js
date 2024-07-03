@@ -97,7 +97,7 @@ function App() {
                             .deleteAll(2)
                             .start()
                         }}/>
-            <p className='sectionTextP2'>Aspiring Fullstack Developer</p>
+            <p className='sectionTextP2'>Aspiring Software Developer</p> {/*Aspiring Full-Stack Developer/Data Analyst*/}
             <div className='buttonContainer'>
               <button className='button button-color-2' onClick={openResume}>My Resume</button>
             </div>
@@ -195,10 +195,32 @@ function App() {
             <div className='aboutContainers'>
               <div className='detailsContainer'>
                 <div className='experienceDetails'>
+                  <img className ='experienceLogo' src='/portfolio/knead-logo.jpeg'></img>
+                  <div className='experienceText'>
+                    <div className='experienceTitleAndDate'>
+                      <h2 className='experienceTitle'>Software Developer Student at <a className='experienceHyperlink' href='https://www.linkedin.com/company/knead-technologies/'> Knead Technologies</a></h2>
+                      <h1 className='experienceDate'>January 2024 - April 2024</h1>
+                    </div>
+                    
+                    <p className='experiencePoints'> Full-stack developer in Agile practicing team of 6 developers for Knead Technologies’ Leftovers web application.</p>
+                    <p className='experiencePoints'>• Developed Marketplace page and built UI components to facilitate user transactions and display metrics using ReactJS.</p>
+                    <p className='experiencePoints'>• Created RESTful API endpoints and refactored existing table columns using Laravel and MySQL to add new functionality.</p>
+                    <p className='experiencePoints'>• Constructed 8+ end-to-end and API tests using Cypress and PHP, ensuring user’s experience met the client’s expectations.</p>
+                    <h1 className='experienceTechStack'>ReactJS | Laravel | PHP | MySQL | Cypress | TypeScript</h1>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='experienceDetailsContainer'>
+            <div className='aboutContainers'>
+              <div className='detailsContainer'>
+                <div className='experienceDetails'>
                   <img className ='experienceLogo' src='/portfolio/uofa-logo.png'></img>
                   <div className='experienceText'>
                     <div className='experienceTitleAndDate'>
-                      <h2 className='experienceTitle'>Software Developer Intern at University of Alberta</h2>
+                      <h2 className='experienceTitle'>Software Developer Intern at <a className='experienceHyperlink' href='https://www.linkedin.com/school/university-of-alberta/'>University of Alberta</a></h2>
                       <h1 className='experienceDate'>September 2023 - December 2023</h1>
                     </div>
                     
@@ -225,7 +247,7 @@ function App() {
                   <img className ='experienceLogo' src='/portfolio/pcl-logo.jpg'></img>
                   <div className='experienceText'>
                     <div className='experienceTitleAndDate'>
-                      <h2 className='experienceTitle'>Software Developer Student at PCL Constructors Inc.</h2>
+                      <h2 className='experienceTitle'>Software Developer Student at <a className='experienceHyperlink' href='https://www.linkedin.com/company/pcl-construction/'>PCL Constructors Inc.</a></h2>
                       <h1 className='experienceDate'>September 2022 - December 2022</h1>
                     </div>
                     
@@ -381,7 +403,7 @@ function App() {
             </div>
             <div className='contactInfoContainer'>
               <img src='/portfolio/linkedin.png' alt='LinkedIn Icon' className='socialsIcon contactIcon'></img>
-              <p><a href='https://www.linkedin.com/in/gurjog-singh-5b4a03232/'>https://www.linkedin.com/in/gurjog-singh-5b4a03232/</a></p>
+              <p><a href='https://www.linkedin.com/in/gurjog-singh-5b4a03232/'>https://www.linkedin.com/in/gurjog-singh/</a></p>
             </div>
           </div>
         </section>
